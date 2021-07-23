@@ -1,36 +1,33 @@
 {
-    "name": "wangmao2002/composer_test",
-    "description": "this is test composer",
-    "type": "library",
-    "repositories": {
+  "name": "wangmao2002/composer_test",
+  "description": "this is test composer",
+  "type": "library",
+  "repositories": {
     "packagist": {
-        "type": "composer",
-        "url": "https://github.com/"
-       }
-    },
-    "require": {
-        "php": ">=5.6.0",
-        "phpunit/phpunit": ">=5.6.0",
-        "ext-xsl": ">=5.6.0",
-        "ext-xdebug": ">=5.6.0"
-    },
-    "require-dev": {
-        "php": ">=5.6.0",
-        "phpunit/phpunit": ">=5.6.0",
-        "ext-xsl": ">=5.6.0",
-        "ext-xdebug": ">=5.6.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "wm",
-            "email": "4718515@qq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload":{
-        "psr-4":{
-	   "Wm\\":"src/"
-	}
+      "type": "composer",
+      "url": "https://github.com/"
     }
+  },
+  "require": {
+    "php": ">=5.6.0",
+  },
+  "require-dev": {
+    "php": ">=5.6.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wm",
+      "email": "4718515@qq.com"
+    }
+  ],
+  "support": {
+    "email": "4718515@qq.com"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "wangmao2002\\": "src/"
+    }
+  }
 }
